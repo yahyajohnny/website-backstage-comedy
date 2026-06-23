@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Rechtliche Seiten nicht indexieren
+Disallow: /impressum.html
+Disallow: /datenschutz.html
+
+# Sitemap
+Sitemap: https://www.backstage-comedy.de/sitemap.xml
