@@ -48,7 +48,7 @@ Gegründet von **Yahya Pervaiz** und **Bilal Mohammed**.
 | **E-Mail** | [haha@backstage-comedy.de](mailto:haha@backstage-comedy.de) |
 | **Instagram** | [@backstage.comedy.night](https://www.instagram.com/backstage.comedy.night/) |
 | **Location** | Backstage München, Reitknechtstr. 6, 80639 München |
-| **Ticketpreis** | ab 17 € |
+| **Ticketpreis** | ab 20 € |
 
 ---
 
