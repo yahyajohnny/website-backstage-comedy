@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Backstage Comedy Night am 23.10.2026",
+    "start": "2026-10-23T20:00:00+02:00",
+    "doors": "2026-10-23T19:00:00+02:00",
+    "end": "2026-10-23T22:00:00+02:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-23102026-t7krb7",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-23-10-2026"
+  },
+  {
+    "name": "Backstage Comedy Night am 11.11.2026",
+    "start": "2026-11-11T20:00:00+01:00",
+    "doors": "2026-11-11T19:00:00+01:00",
+    "end": "2026-11-11T22:00:00+01:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-11112026-qx56e0",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-11-11-2026"
+  },
+  {
+    "name": "Backstage Comedy Night am 01.12.2026",
+    "start": "2026-12-01T20:00:00+01:00",
+    "doors": "2026-12-01T19:00:00+01:00",
+    "end": "2026-12-01T22:00:00+01:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-01122026-mfa742",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-01-12-2026"
+  },
+  {
+    "name": "Backstage Comedy Night am 07.01.2027",
+    "start": "2027-01-07T20:00:00+01:00",
+    "doors": "2027-01-07T19:00:00+01:00",
+    "end": "2027-01-07T22:00:00+01:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-07012027-zcmbt0",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-07-01-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 04.02.2027",
+    "start": "2027-02-04T20:00:00+01:00",
+    "doors": "2027-02-04T19:00:00+01:00",
+    "end": "2027-02-04T22:00:00+01:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-04022027-q8p1nw",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-04-02-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 01.03.2027",
+    "start": "2027-03-01T20:00:00+01:00",
+    "doors": "2027-03-01T19:00:00+01:00",
+    "end": "2027-03-01T22:00:00+01:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-01032027-xbtzec",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-01-03-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 08.04.2027",
+    "start": "2027-04-08T20:00:00+02:00",
+    "doors": "2027-04-08T19:00:00+02:00",
+    "end": "2027-04-08T22:00:00+02:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-08042027-2f9mfb",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-08-04-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 13.05.2027",
+    "start": "2027-05-13T20:00:00+02:00",
+    "doors": "2027-05-13T19:00:00+02:00",
+    "end": "2027-05-13T22:00:00+02:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-13052027-xkr97s",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-13-05-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 10.06.2027",
+    "start": "2027-06-10T20:00:00+02:00",
+    "doors": "2027-06-10T19:00:00+02:00",
+    "end": "2027-06-10T22:00:00+02:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-10062027-i9w0uu",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-10-06-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 09.09.2027",
+    "start": "2027-09-09T20:00:00+02:00",
+    "doors": "2027-09-09T19:00:00+02:00",
+    "end": "2027-09-09T22:00:00+02:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-09092027-n1ev0q",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-09-09-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 14.10.2027",
+    "start": "2027-10-14T20:00:00+02:00",
+    "doors": "2027-10-14T19:00:00+02:00",
+    "end": "2027-10-14T22:00:00+02:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-14102027-18otqm",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-14-10-2027"
+  },
+  {
+    "name": "Backstage Comedy Night am 11.11.2027",
+    "start": "2027-11-11T20:00:00+01:00",
+    "doors": "2027-11-11T19:00:00+01:00",
+    "end": "2027-11-11T22:00:00+01:00",
+    "soldOut": false,
+    "minPrice": 20,
+    "ticketUrl": "https://shop.snapticket.de/event/backstage-comedy-night-am-11112027-csv9qp",
+    "image": "https://s3.eu-central-1.amazonaws.com/yt-s3/dd13494e-5403-4590-88e8-10eb5ec4e478.png",
+    "slug": "backstage-comedy-night-11-11-2027"
+  }
+]
