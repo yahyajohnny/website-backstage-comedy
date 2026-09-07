@@ -10,7 +10,7 @@ const BCN_BASE_URL = 'https://www.backstage-comedy.de';
 const BCN_EMAIL = 'haha@backstage-comedy.de';
 const BCN_INSTAGRAM = 'https://www.instagram.com/backstage.comedy.night/';
 const BCN_TIMEZONE = 'Europe/Berlin';
-const BCN_ASSET_VERSION = '20260907a';
+const BCN_ASSET_VERSION = '20260907b';
 
 const BCN_LOCATION = [
     'name' => 'Backstage München',

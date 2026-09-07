@@ -192,7 +192,7 @@ require __DIR__ . '/includes/head.php';
             <h2 id="about-heading">Was ist die Backstage Comedy Night?</h2>
             <p>Bereit für einen Abend voller Lachen? Die <strong>Backstage Comedy Night</strong> ist die monatliche Stand-up-Comedy-Show im Backstage München – mit erfahrenen Comedians, wechselndem Line-up und einer Atmosphäre, die du so nur im Backstage findest.</p>
             <p>Als <strong>Mixed Comedy Show</strong> bringen wir verschiedene Acts der Münchner Szene auf eine Bühne. Jeder Comedian hat seinen eigenen Stil, sein eigenes Material – zusammen ergeben sie einen Abend mit persönlichen Stories, spontanen Momenten und Comedy, die dich abholt.</p>
-            <p>Gegründet von <a href="/comedians/yahya-pervaiz/">Yahya Pervaiz</a> (Steh auf Comedy Freising) und <a href="/comedians/bilal-mohammed/">Bilal Mohammed</a> (Geistesblitz Comedy), vereint die Backstage Comedy Night erfahrene Acts aus der Münchner Stand-up-Szene unter einem Dach.</p>
+            <p>Gegründet von Yahya Pervaiz (Steh auf Comedy Freising) und Bilal Mohammed (Geistesblitz Comedy). Die Backstage Comedy Night bringt Acts aus der Münchner und deutschsprachigen Stand-up-Szene auf eine Bühne.</p>
             <div class="about-features">
               <div class="feature-item">
                 <span class="feature-icon" aria-hidden="true">✓</span>
@@ -227,7 +227,7 @@ require __DIR__ . '/includes/head.php';
         <div class="team-grid">
           <article class="team-card reveal">
             <div class="team-photo-wrap">
-              <img src="/assets/yahya.JPG" alt="Yahya Pervaiz – Comedian und Co-Founder der Backstage Comedy Night München" width="600" height="800" loading="lazy" />
+              <img src="/assets/yahya.webp" alt="Yahya Pervaiz – Comedian und Co-Founder der Backstage Comedy Night München" width="600" height="800" loading="lazy" />
               <div class="team-photo-overlay" aria-hidden="true"></div>
             </div>
             <div class="team-role">Co-Founder · Steh auf Comedy Freising</div>
@@ -241,7 +241,7 @@ require __DIR__ . '/includes/head.php';
           </article>
           <article class="team-card reveal reveal-delay-1">
             <div class="team-photo-wrap">
-              <img src="/assets/bilal.jpeg" alt="Bilal Mohammed – Comedian, Moderator und Co-Founder der Backstage Comedy Night München" width="600" height="800" loading="lazy" />
+              <img src="/assets/bilal.webp" alt="Bilal Mohammed – Comedian, Moderator und Co-Founder der Backstage Comedy Night München" width="600" height="800" loading="lazy" />
               <div class="team-photo-overlay" aria-hidden="true"></div>
             </div>
             <div class="team-role">Co-Founder · Geistesblitz Comedy</div>

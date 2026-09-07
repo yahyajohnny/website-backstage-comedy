@@ -56,9 +56,12 @@ $extraHead = $page['extraHead'] ?? '';
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png" />
   <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <link rel="stylesheet" href="<?= bcn_esc(bcn_asset('/assets/fonts/outfit.css')) ?>" />
+  <link rel="preload" href="/assets/fonts/outfit-400-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/assets/fonts/outfit-800-latin.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="<?= bcn_esc(bcn_asset('/assets/fonts/outfit.css')) ?>" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="<?= bcn_esc(bcn_asset('/assets/fonts/outfit.css')) ?>" /></noscript>
 <?php if (!empty($page['preloadHero'])): ?>
-  <link rel="preload" href="/assets/img/hero-1280.webp" as="image" type="image/webp" fetchpriority="high" imagesrcset="/assets/img/hero-480.webp 480w, /assets/img/hero-768.webp 768w, /assets/img/hero-1280.webp 1280w, /assets/img/hero-1920.webp 1920w" imagesizes="100vw" />
+  <link rel="preload" href="/assets/img/hero-1280.webp" as="image" type="image/webp" fetchpriority="high" />
 <?php endif; ?>
   <link rel="stylesheet" href="<?= bcn_esc(bcn_asset('/styles.css')) ?>" />
 <?php foreach ($jsonLd as $block): ?>
