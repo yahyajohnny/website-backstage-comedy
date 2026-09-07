@@ -48,9 +48,20 @@ Gegründet von **Yahya Pervaiz** und **Bilal Mohammed**.
 | **E-Mail** | [haha@backstage-comedy.de](mailto:haha@backstage-comedy.de) |
 | **Instagram** | [@backstage.comedy.night](https://www.instagram.com/backstage.comedy.night/) |
 | **Location** | Backstage München, Reitknechtstr. 6, 80639 München |
-| **Ticketpreis** | ab 17 € |
+| **Ticketpreis** | ab 20 € |
 
 ---
+
+
+## Architektur (PHP)
+
+Die Live-Seite wird serverseitig mit PHP gerendert. Zentrale Eventdaten liegen in `lib/events.php` (Zeitzone `Europe/Berlin`). `/api-events.php` und alle Seiten nutzen dieselbe Quelle. Cron: `cron/refresh-events.php` (empfohlen 00:05 und kurz nach typischem Showende).
+
+Lokal testen:
+
+```bash
+php -S 127.0.0.1:8080 router.php
+```
 
 ## Technologie-Stack
 

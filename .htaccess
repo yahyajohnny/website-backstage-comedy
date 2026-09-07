@@ -1,74 +1,62 @@
-# =============================================
-# Backstage Comedy Night München – .htaccess
-# SEO & Performance Optimierungen
-# =============================================
-
+# Backstage Comedy Night – Apache config
 Options -Indexes
 
-# -----------------------------------------------
-# 1. HTTPS erzwingen
-# -----------------------------------------------
+# Prefer PHP over static HTML when both exist
+DirectoryIndex index.php index.html
+
+# HTTPS + www (single hop via combined conditions where possible)
 RewriteEngine On
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-# -----------------------------------------------
-# 2. www erzwingen (www.backstage-comedy.de)
-# -----------------------------------------------
+# Force HTTPS
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !=https
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Force www
 RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
-# -----------------------------------------------
-# 3. Trailing Slash für Verzeichnisse
-# -----------------------------------------------
+# Event detail pages: /termine/{slug}/ → termine/event.php?slug=
+RewriteRule ^termine/([a-z0-9\-]+)/?$ termine/event.php?slug=$1 [L,QSA]
+
+# Trailing slash for directories
 RewriteCond %{REQUEST_FILENAME} -d
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.+)$ /$1/ [L,R=301]
+RewriteRule ^(.+[^/])$ /$1/ [R=301,L]
 
-# -----------------------------------------------
-# 4. Browser-Caching
-# -----------------------------------------------
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresByType image/webp "access plus 1 year"
-  ExpiresByType image/jpeg "access plus 1 year"
-  ExpiresByType image/png "access plus 1 year"
-  ExpiresByType image/svg+xml "access plus 1 year"
-  ExpiresByType text/css "access plus 1 month"
-  ExpiresByType application/javascript "access plus 1 month"
-  ExpiresByType text/html "access plus 1 week"
-  ExpiresByType application/json "access plus 1 day"
-  ExpiresByType application/xml "access plus 1 day"
-</IfModule>
+# Custom 404
 
-# -----------------------------------------------
-# 5. Gzip-Komprimierung
-# -----------------------------------------------
-<IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/plain text/css
-  AddOutputFilterByType DEFLATE application/javascript application/json
-  AddOutputFilterByType DEFLATE image/svg+xml application/xml
-</IfModule>
+# Serve PHP backends for legacy .html URLs
+RewriteRule ^galerie\.html$ galerie.php [L]
+RewriteRule ^impressum\.html$ impressum.php [L]
+RewriteRule ^datenschutz\.html$ datenschutz.php [L]
 
-# -----------------------------------------------
-# 6. Security-Header
-# -----------------------------------------------
-<IfModule mod_headers.c>
-  Header always set X-Content-Type-Options "nosniff"
-  Header always set X-Frame-Options "SAMEORIGIN"
-  Header always set X-XSS-Protection "1; mode=block"
-  Header always set Referrer-Policy "strict-origin-when-cross-origin"
-  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
-</IfModule>
-
-# -----------------------------------------------
-# 7. Fehlerseiten
-# -----------------------------------------------
 ErrorDocument 404 /404.html
 
-# -----------------------------------------------
-# 8. MIME-Types für WebP
-# -----------------------------------------------
-<IfModule mod_mime.c>
-  AddType image/webp .webp
+# Protect internals
+RewriteRule ^lib/ - [F,L]
+RewriteRule ^cache/ - [F,L]
+RewriteRule ^cron/ - [F,L]
+RewriteRule ^includes/ - [F,L]
+
+# Compression
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# Caching
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/webp "access plus 30 days"
+  ExpiresByType image/avif "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 365 days"
+</IfModule>
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>

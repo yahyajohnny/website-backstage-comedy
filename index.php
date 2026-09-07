@@ -33,7 +33,9 @@ $homeFaqs = [
     ],
     [
         'q' => 'Was kosten die Tickets?',
-        'a' => $ticketAudienceText,
+        'a' => ($next && $next['minPrice'] !== null)
+            ? ('Tickets gibt es ' . bcn_price_label($next['minPrice']) . ' im Vorverkauf über Snapticket.')
+            : 'Tickets gibt es im Vorverkauf über Snapticket.',
     ],
     [
         'q' => 'Gibt es Tickets an der Abendkasse?',

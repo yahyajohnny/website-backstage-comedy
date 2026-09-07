@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-  <!-- Startseite -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.backstage-comedy.de/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <!-- Shows -->
-  <url>
-    <loc>https://www.backstage-comedy.de/shows/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/shows/backstage-comedy-night-04-mai-2026/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.backstage-comedy.de/stand-up-comedy-muenchen/</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/shows/backstage-comedy-night-11-juni-2026/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://www.backstage-comedy.de/comedy-club-muenchen/</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/shows/backstage-comedy-night-09-juli-2026/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Comedians -->
-  <url>
-    <loc>https://www.backstage-comedy.de/comedians/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.backstage-comedy.de/termine/</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/comedians/yahya-pervaiz/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.backstage-comedy.de/tickets/</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/comedians/bilal-mohammed/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.backstage-comedy.de/backstage-muenchen-comedy/</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
-
-  <!-- Location -->
   <url>
-    <loc>https://www.backstage-comedy.de/location/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.backstage-comedy.de/comedy-muenchen-heute/</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
-
-  <!-- Galerie -->
+  <url>
+    <loc>https://www.backstage-comedy.de/comedy-muenchen-wochenende/</loc>
+    <lastmod>2026-09-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/gruppen-firmenevents/</loc>
+    <lastmod>2026-09-07</lastmod>
+  </url>
   <url>
     <loc>https://www.backstage-comedy.de/galerie.html</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <!-- Blog -->
-  <url>
-    <loc>https://www.backstage-comedy.de/blog/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/blog/beste-comedy-shows-muenchen/</loc>
-    <lastmod>2026-04-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://www.backstage-comedy.de/impressum.html</loc>
+    <lastmod>2026-08-26</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/blog/was-ist-stand-up-comedy/</loc>
-    <lastmod>2026-03-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.backstage-comedy.de/datenschutz.html</loc>
+    <lastmod>2026-09-07</lastmod>
   </url>
   <url>
-    <loc>https://www.backstage-comedy.de/blog/comedy-muenchen-guide/</loc>
-    <lastmod>2026-02-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-23-10-2026/</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
-
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-11-11-2026/</loc>
+    <lastmod>2026-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-01-12-2026/</loc>
+    <lastmod>2026-12-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-07-01-2027/</loc>
+    <lastmod>2027-01-07</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-04-02-2027/</loc>
+    <lastmod>2027-02-04</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-01-03-2027/</loc>
+    <lastmod>2027-03-01</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-08-04-2027/</loc>
+    <lastmod>2027-04-08</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-13-05-2027/</loc>
+    <lastmod>2027-05-13</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-10-06-2027/</loc>
+    <lastmod>2027-06-10</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-09-09-2027/</loc>
+    <lastmod>2027-09-09</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-14-10-2027/</loc>
+    <lastmod>2027-10-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-11-11-2027/</loc>
+    <lastmod>2027-11-11</lastmod>
+  </url>
+  <url>
+    <loc>https://www.backstage-comedy.de/termine/backstage-comedy-night-03-09-2026/</loc>
+    <lastmod>2026-09-03</lastmod>
+  </url>
 </urlset>
